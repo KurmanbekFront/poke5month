@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pokemon-cards {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.pokemon-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 169px;
+  text-align: center;
+}
